@@ -16,7 +16,7 @@ Project Outline: Daily Spending Tracker with Budget Management
 **Data Visualization**:  Generate simple plots to visualize: Daily spending trend. Remaining budget for each category. Budget Summary:  Display a summary of the daily total, monthly total, and remaining budget in each category. 
 **Data Storage and Retrieval**:  Save daily expenses into a CSV file. Load previous data to update the daily spending and remaining budget.
 
-**code:**
+#code
 print("Welcome to the Daily Expense Tracker :)")
 salary = int(input("What is your monthly salary?\n"))
 savings = salary * 30/100

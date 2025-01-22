@@ -26,17 +26,21 @@ money_to_spend = salary - savings
 
 print(f"You have total ${money_to_spend} for the month")
 
-# Initialize total spent money
+**Initialize total spent money**
+
 total_spent_money = 0
 
-# Example of daily spending; you can replace these with inputs or more dynamic data collection
+**Example of daily spending; you can replace these with inputs or more dynamic data collection**
+
 daily_spent = [200, 450, 350, 2000]  # List of daily expenses
 
-# Add each day's spending to the total
+**Add each day's spending to the total**
+
 for spent in daily_spent:
     total_spent_money += spent
 
-# Calculate remaining money
+**Calculate remaining money**
+
 left_money = money_to_spend - total_spent_money
 
 print(f"Total spent so far: ${total_spent_money}")
